@@ -4,6 +4,6 @@ project(Math_Parser_Test)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Math_Parser math_parse.cpp test.cpp)
+add_library(Math_Parser math_parse.cpp example.cpp)
 
-add_executable(Math_Parser_Test test.cpp math_parse.cpp)
+add_executable(Math_Parser_Test example.cpp math_parse.cpp)
